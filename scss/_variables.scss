@@ -1,0 +1,25 @@
+// Colores de Marca
+$primary-blue: #0d6efd;
+$hero-pastel: #a8dadc;
+$hero-text: #1d3557;
+$bg-main: #F1F5F9;
+$white: #ffffff;
+$text-dark: #212529;
+
+// Colores de Secciones (Comida saludable e Impacto)
+$bg-transformation: #f1fcf1;
+$text-transformation: #141b15;
+$footprint-blue: #7C86FF;
+
+// Degradados (Flip Cards)
+$flip-grad-start: #a1c4fd;
+$flip-grad-end: #c2e9fb;
+
+// Mixins (Efectos reutilizables)
+@mixin card-shadow {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+@mixin transition-standard {
+    transition: all 0.3s ease-in-out;
+}
